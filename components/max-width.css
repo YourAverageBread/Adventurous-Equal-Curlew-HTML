@@ -1,0 +1,107 @@
+.max-width-max-width {
+  gap: var(--dl-space-space-threeunits);
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.max-width-column {
+  gap: var(--dl-space-space-halfunit);
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.max-width-content {
+  gap: 48px;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.max-width-row {
+  align-items: flex-start;
+}
+.max-width-feature1 {
+  flex: 1;
+}
+.max-width-image {
+  width: 366px;
+  height: 244px;
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  object-fit: cover;
+  border-radius: var(--dl-radius-radius-inputradius);
+}
+.max-width-content1 {
+  align-self: stretch;
+  align-items: flex-start;
+}
+.max-width-feature2 {
+  flex: 1;
+}
+.max-width-image1 {
+  width: 366px;
+  height: 244px;
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  object-fit: cover;
+  border-radius: var(--dl-radius-radius-inputradius);
+}
+.max-width-content2 {
+  align-self: stretch;
+  align-items: flex-start;
+}
+.max-width-feature3 {
+  flex: 1;
+}
+.max-width-feature3-image {
+  width: 366px;
+  height: 244px;
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  object-fit: cover;
+  border-radius: var(--dl-radius-radius-inputradius);
+}
+.max-width-content3 {
+  align-self: stretch;
+  align-items: flex-start;
+}
+.max-width-actions {
+  gap: var(--dl-space-space-unit);
+  display: flex;
+  align-items: flex-start;
+}
+@media(max-width: 991px) {
+  .max-width-section-title {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}
+@media(max-width: 767px) {
+  .max-width-column {
+    width: 100%;
+  }
+  .max-width-text1 {
+    text-align: center;
+  }
+  .max-width-row {
+    flex-direction: column;
+  }
+  .max-width-feature2 {
+    width: auto;
+  }
+  .max-width-feature3 {
+    width: auto;
+  }
+  .max-width-actions {
+    flex-wrap: wrap;
+  }
+}
+@media(max-width: 479px) {
+  .max-width-actions {
+    width: 100%;
+    flex-direction: column;
+  }
+  .max-width-button {
+    width: 100%;
+  }
+  .max-width-button1 {
+    width: 100%;
+  }
+}
